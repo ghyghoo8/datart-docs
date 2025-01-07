@@ -113,7 +113,7 @@ $DATART_USER_NAME$         # 用户姓名
 
 datart 使用 [freemarker](https://freemarker.apache.org/) 来解析变量，因此可以使用 freemarker 的条件语法来达到一些动态效果
 
-**注意：变量在 `if` 语句中前后不要使用 `$` 包裹**
+**注意：变量在 `if` 语句中前后不要使用 `$` 包裹, 且语法内不能使用公共变量**
 
 在变量值为单值时，可以这样使用
 
